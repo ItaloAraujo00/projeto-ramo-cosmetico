@@ -1,0 +1,25 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(produtos.css);
+@import url(contato.css);
+@import url(rodapé.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+:root {
+    --cor-1: #8C6056;
+    --cor-2: #261C1A;
+    --cor-3: #BF988F;
+    --cor-4: #F2F2F2;
+    --cor-5: #D9D9D9;
+    --fonte-titulos: "Lato", sans-serif;
+    --fonte-textos: sans-serif;
+    --header-height: 34px;
+
+}
+
+body {
+    background-color: var(--cor-3);
+    font-family: var(--fonte-textos);
+}

@@ -1,0 +1,82 @@
+.contato__container{
+    height: 30%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0 5vh 0;
+    background-color: var(--cor-1);
+}
+
+.contato__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    background-color: var(--cor-5);
+    border-radius: 5px;
+}
+
+.contato__header{
+    display: flex;
+    justify-content: center;
+    color:var(--cor-2);
+    font-family: var(--fonte-titulos);
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.imput__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-caixa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-caixa input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-caixa label {
+    display: none;
+}
+
+.input-caixa textarea {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-family: var(--fonte-textos);
+}
+
+.contato__botao{
+    display: flex;
+    justify-content: center;
+}
+
+.contato__botao button{
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: var(--fonte-titulos);
+
+    width: 104%;
+}
+
+@media screen and (min-width: 1728px){
+    .contato__container{
+        padding: 10vh 0 10vh 0;
+    }
+}

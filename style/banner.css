@@ -1,0 +1,70 @@
+.container__section {
+  margin-top: var(--header-height);
+  overflow: hidden;
+}
+
+.sec__banner {
+  background-image: url("../img/young-female-holding-leaf-near-eye.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container__infos-banner {
+  text-align: center;
+  padding: 4rem;
+}
+
+.banner__titulo {
+  font-family: var(--fonte-titulos);
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--cor-4);
+  padding: 16px;
+}
+
+.banner__paragrafo {
+  color: var(--cor-5);
+  font-family: var(--fonte-textos);
+}
+
+
+@media screen and (min-width: 1024px){
+  .sec__banner {
+    background-image: url("../img/young-female-holding-leaf-near-eye.jpg");
+    height: 50vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container__infos-banner {
+    text-align: left;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  .banner__titulo {
+    font-family: var(--fonte-titulos);
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--cor-4);
+    padding: 16px;
+  }
+
+  .banner__paragrafo {
+    color: var(--cor-5);
+    font-size: larger;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1728px){
+  .banner__titulo {
+    font-size: 6rem;
+  }
+}
