@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html lang="pt-br"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +8,6 @@
 </head>
 <body>
     <header class="container__header">
-            <!-- <input type="checkbox"  id="menu" class="botao__header"> -->
             <div id="menu" class="botao__header">
             <span class="hamburger__img"></span>
             </div>
@@ -41,11 +38,9 @@
             </div>
         </section>
         <section class="section__produtos">
-            <button id="mostrar-cards-btn">mostrar produtos</button>
-         <div class="produtos__container">
             <div id="cards-wrapper">
                 <div class="produtos__card">
-                    <button class="esconder-card-btn">x</button>
+                    <button class="esconder-card-btn"><img src="img/x-button.svg" alt=""></button>
                     <img src="img/elegant-skin-care-banner-design.jpg" alt="">
                     <div class="produtos__card-conteudo">
                         <h3>produto 1</h3>
@@ -54,7 +49,7 @@
                     </div>
                 </div>
                 <div class="produtos__card">
-                    <button class="esconder-card-btn">x</button>
+                    <button class="esconder-card-btn"><img src="img/x-button.svg" alt=""></button>
                     <img src="img/perfume2.svg" alt="">
                     <div class="produtos__card-conteudo">
                         <h3>produto 2</h3>
@@ -63,7 +58,7 @@
                     </div>
                 </div>
                 <div class="produtos__card">
-                    <button class="esconder-card-btn">x</button>
+                    <button class="esconder-card-btn"><img src="img/x-button.svg" alt=""></button>
                     <img src="img/perfume3.svg" alt="">
                     <div class="produtos__card-conteudo">
                         <h3>produto 3</h3>
@@ -72,7 +67,7 @@
                     </div>
                 </div>
                 <div class="produtos__card">
-                    <button class="esconder-card-btn">x</button>
+                    <button class="esconder-card-btn"><img src="img/x-button.svg" alt=""></button>
                     <img src="img/perfume4.svg" alt="">
                     <div class="produtos__card-conteudo">
                         <h3>produto 4</h3>
@@ -81,7 +76,7 @@
                     </div>
                 </div>
             </div>
-         </div>
+            <button id="mostrar-cards-btn">mostrar produtos</button>
         </section>
 
         <section class="contato__container">
@@ -94,12 +89,12 @@
                     <div class="imput__form">
                         <div class="input-caixa">
                             <label for="seunome">Seu nome</label>
-                            <input type="text" name="nome" id="seunome" placeholder="Digite seu nome">
+                            <input type="text" name="nome" id="seunome" placeholder="Digite seu nome" required="">
                         </div>
 
                         <div class="input-caixa">
                             <label for="email">Seu email</label>
-                            <input type="email" name="firstname" id="email" placeholder="Digite seu email">
+                            <input type="email" name="firstname" id="email" placeholder="Digite seu email" required="">
                         </div>
 
                         <div class="input-caixa">
@@ -140,5 +135,5 @@
         </section>
     </div>
     <script src="js/script.js"></script>
-</body>
-</html>
+
+</body></html>
